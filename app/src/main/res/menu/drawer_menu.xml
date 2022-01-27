@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/menu_affilate"
+        android:title="Affiliate Program"
+        android:icon="@drawable/ic_business_center"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_product_request"
+        android:icon="@drawable/ic_product"
+        android:title="Product Request" />
+    <item
+        android:id="@+id/menu_corporate"
+        android:icon="@drawable/ic_help"
+        android:title="Corporate Information" />
+
+
+        <item
+            android:id="@+id/menu_contact_us"
+            android:icon="@drawable/ic_call"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/menu_privacy_policy"
+            android:icon="@drawable/ic_policy"
+            android:title="Privacy Policy" />
+    </group>
+
+    <item
+        android:id="@+id/menu_rateus"
+        android:icon="@drawable/ic_rate"
+        android:title="Rate Us" />
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/ic_share"
+        android:title="Share" />
+
+
+</menu>
